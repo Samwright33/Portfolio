@@ -70,19 +70,29 @@ justify-content: center;
   padding: 10px;
 }
 
-/* 
 @media screen and (max-width: 992px) {
-  .prework-study-guide, img {
-    width: 200px;
+  .prework-study-guide img {
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 992px) {
     .horiseon-challenge img, .placeholder img {
+      width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .prework-study-guide img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .horiseon-challenge img, .placeholder img {
       width: 100px;
     }
-} */
-
+}
 .flex-container {
   display: flex;
   flex-direction: row;
