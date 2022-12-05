@@ -6,11 +6,73 @@
     /* display: flex; */
     justify-content: space-between;
     padding: 20px;
-    background: #75ebe9;
+    background: #86f5f3;
     color: #fff;
+
+}
+
+/* h1 {
+  font-style: bold;
+  border: rgb(19, 28, 129);
+  border-width: 50%;
+} */
+
+.header nav {
+float: right;
+padding-top: 15px;
+margin-right: 20px;
+width: 70%;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid rgb(19, 28, 129);
+  width: 50%;
+ /* flex-direction:row; */
+  
 }
 
 img {
 height: 200px;
 width: 200px;
+} 
+
+.description img {
+  height: 200px;
+  width: 200px; 
+} 
+
+.prework-study-guide img {
+height: 500px;
+width: 700px;
+padding-left: 400px;
 }
+
+.placeholder img, .horiseon-challenge img {
+height: 300px;
+width: 300px;
+}
+
+.footer {
+  display: flexbox;
+  float: 200px left 200px;
+}
+/* 
+@media screen and (max-width: 992px) {
+  .prework-study-guide, img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+    .horiseon-challenge img, .placeholder img {
+      width: 100px;
+    }
+} */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
