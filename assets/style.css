@@ -2,13 +2,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     color: rgb(19, 28, 129);
 }
+
 .header {
     /* display: flex; */
     justify-content: space-between;
     padding: 20px;
-    background: #86f5f3;
+    background: #19ea31;
     color: #fff;
-
 }
 
 /* h1 {
@@ -36,6 +36,8 @@ width: 70%;
 img {
 height: 200px;
 width: 200px;
+border: solid rgb(19, 28, 129);
+border-width: 5px;
 } 
 
 .description img {
@@ -43,34 +45,54 @@ width: 200px;
   width: 200px; 
 } 
 
+.description p {
+padding-right: 40px;
+}
+
 .prework-study-guide img {
 height: 500px;
 width: 700px;
-padding-left: 400px;
+display: flex;
 }
 
 .placeholder img, .horiseon-challenge img {
 height: 300px;
 width: 300px;
+display: flex;
+justify-content: center;
 }
 
-.footer {
-  display: flexbox;
-  float: 200px left 200px;
+.footer nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid rgb(19, 28, 129);
+  width: 70%;
+  padding: 10px;
 }
-/* 
+
 @media screen and (max-width: 992px) {
-  .prework-study-guide, img {
-    width: 200px;
+  .prework-study-guide img {
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 992px) {
     .horiseon-challenge img, .placeholder img {
+      width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .prework-study-guide img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .horiseon-challenge img, .placeholder img {
       width: 100px;
     }
-} */
-
+}
 .flex-container {
   display: flex;
   flex-direction: row;
