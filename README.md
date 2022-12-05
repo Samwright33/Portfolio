@@ -1,12 +1,10 @@
 # Portfolio
 
 ## Description
-This portfolio showcases the web developments of Sam Wright
-* Added semantic HTML elements
-* Organized the structure of HTML elements so they follow a logical structure independant of styling and positioning.
-* Added alt attributes to images
-* Adjusted heading attributes so they follow a sequential order
-* Added a descriptive title
+This portfolio showcases the web developments of Sam Wright. In this portfolio, you can:
+* Learn more about who I am as a web developer
+* View the web developments I have created
+* Access my contact information
 
 ## License 
 * Refer to the License in repo.

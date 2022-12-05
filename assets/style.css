@@ -1,0 +1,16 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    color: rgb(19, 28, 129);
+}
+.header {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 20px;
+    background: #75ebe9;
+    color: #fff;
+}
+
+img {
+height: 200px;
+width: 200px;
+}
