@@ -1,5 +1,8 @@
 # Portfolio
 
+## Screenshot
+![Screenshot of the page](./assets/images/readme.png)
+
 ## Description
 This portfolio showcases the web developments of Sam Wright. In this portfolio, you can:
 * Learn more about who I am as a web developer
@@ -10,7 +13,5 @@ This portfolio showcases the web developments of Sam Wright. In this portfolio, 
 * Refer to the License in repo.
 
 ## Link to Deployed Application
-Link: 
+Link: https://samwright33.github.io/Portfolio/
 
-## Screenshot
-![Screenshot of the page](./assets/images/read-me.png)
