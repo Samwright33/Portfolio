@@ -1,21 +1,18 @@
+/* Organized CSS selectors to align with the structure of the HTML docuement  */
+/* Universal selectors */
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
     color: rgb(19, 28, 129);
 }
 
+/* Class Selectors */
 .header {
-    /* display: flex; */
     justify-content: space-between;
     padding: 20px;
-    background: #19ea31;
+    background-color: #86e7f0;
     color: #fff;
+    
 }
-
-/* h1 {
-  font-style: bold;
-  border: rgb(19, 28, 129);
-  border-width: 50%;
-} */
 
 .header nav {
 float: right;
@@ -28,11 +25,10 @@ width: 70%;
   display: flex;
   justify-content: space-evenly;
   border: solid rgb(19, 28, 129);
-  width: 50%;
- /* flex-direction:row; */
-  
+  width: 50%;  
 }
 
+/* Element selector */
 img {
 height: 200px;
 width: 200px;
@@ -40,26 +36,43 @@ border: solid rgb(19, 28, 129);
 border-width: 5px;
 } 
 
+/* Class Selectors */
 .description img {
   height: 200px;
   width: 200px; 
 } 
 
+/* Added padding keep text further right */
 .description p {
 padding-right: 40px;
 }
 
+/* This is image must be larger */
 .prework-study-guide img {
 height: 500px;
 width: 700px;
-display: flex;
+display:-webkit-inline-flex;
 }
 
+/* These images will all be equal in size */
 .placeholder img, .horiseon-challenge img {
 height: 300px;
 width: 300px;
 display: flex;
 justify-content: center;
+}
+
+body {
+  background-color: rgb(232, 239, 239);
+  background-size: cover;
+}
+
+.placeholder, .horiseon-challenge {
+  text-align: center;
+}
+
+.prework-study-guide {
+text-align:center;
 }
 
 .footer nav ul {
@@ -68,8 +81,10 @@ justify-content: center;
   border: solid rgb(19, 28, 129);
   width: 70%;
   padding: 10px;
+  margin-left: 135px;
 }
 
+/* Added different max-width adjustments so the website adjusts to different size screens */
 @media screen and (max-width: 992px) {
   .prework-study-guide img {
     width: 350px;
@@ -93,6 +108,7 @@ justify-content: center;
       width: 100px;
     }
 }
+
 .flex-container {
   display: flex;
   flex-direction: row;
